@@ -1,4 +1,4 @@
-FROM zinapps/vnc
+FROM zinapps/zvnc
 
 RUN apt-get update
 RUN apt-get upgrade -y
