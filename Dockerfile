@@ -9,5 +9,5 @@ RUN add-apt-repository -y ppa:openjdk-r/ppa
 RUN apt-get update
 RUN apt-get install openjdk-8-jdk -y
 
-RUN wget https://dl.google.com/dl/android/studio/ide-zips/1.5.1.0/android-studio-ide-141.2456560-linux.zip -O sdk.zip
+RUN wget https://dl.google.com/dl/android/studio/ide-zips/2.1.2.0/android-studio-ide-143.2915827-linux.zip -O sdk.zip
 RUN unzip sdk.zip
